@@ -5,10 +5,10 @@ description = "This application enables real-time voice chat using Streamlit and
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "streamlit-webrtc>=0.47.9",
-    "streamlit==1.38.0", # streamlit_webrtc (0.47.9) doesn't work with 1.39.0 for some reason
-    "openai>=1.55.3",
-    "websockets>=14.1",
-    "numpy>=2.1.3",
-    "av>=12.3.0",
+    "streamlit-webrtc~=0.47",
+    "streamlit~=1.38.0", # streamlit_webrtc (0.47.9) doesn't work with 1.39.0 for some reason
+    "openai~=1.55",
+    "websockets~=14.1",
+    "numpy~=2.1",
+    "av~=12.3",
 ]
